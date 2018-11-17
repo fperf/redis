@@ -1,6 +1,6 @@
 # Benchmark Redis
 
-This is a client of fperf which benchmarks Redis
+This is a client of [fperf](https://github.com/shafreeck/fperf) which benchmarks Redis
 
 ## How to use
 
