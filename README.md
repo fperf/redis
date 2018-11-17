@@ -1,2 +1,17 @@
-# redis
-Redis benchmark using fperf
+# Benchmark Redis
+
+This is a client of fperf which benchmarks Redis
+
+## How to use
+
+### Build fperf with redis support
+```
+go install github.com/shafreeck/fperf/bin/fperf-build
+fperf-build github.com/fperf/redis
+```
+
+### Run the benchmark
+
+```
+./fperf -connection 128 -server redis://localhost:6379 redis set key:__rand_int__ "hello fperf"
+```
