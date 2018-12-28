@@ -24,8 +24,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/fperf/fperf"
 	"github.com/garyburd/redigo/redis"
-	"github.com/shafreeck/fperf"
 )
 
 const seqPlaceHolder = "__seq_int__"
