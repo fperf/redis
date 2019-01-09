@@ -6,7 +6,8 @@ This is a client of [fperf](https://github.com/shafreeck/fperf) which benchmarks
 
 ### Build fperf with redis support
 ```
-go install github.com/shafreeck/fperf/bin/fperf-build
+go got github.com/shafreeck/fperf/bin/fperf-build
+go get github.com/fperf/redis
 fperf-build github.com/fperf/redis
 ```
 
